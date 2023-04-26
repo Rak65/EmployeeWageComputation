@@ -10,7 +10,7 @@ namespace EmployeeWageComputation
     {
         static void Main(string[] args)
         {
-            EmployeeCheck.PartFullEmpWage();
+            EmployeeCheck.MonthEmpWage();
             Console.ReadKey();
         }
     }

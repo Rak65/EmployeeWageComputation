@@ -8,42 +8,29 @@ namespace EmployeeWageComputation
 {
     public class EmployeeCheck
     {
-        public static void PartFullEmpWage() 
+        public static void MonthEmpWage() 
         {
-            //int IS_FULL_TIME = 1;
-            //int IS_PART_TIME = 2;
+            int WORKING_DAYS = 20;        //20 working days per month
             int dayHour = 0;
-            int dailyEmpWage = 0;
+            int monthEmpWage;
             int WAGE_PER_HOUR = 20;
             Random random = new Random();
             int empCheck=random.Next(3);
             switch(empCheck)
             {
-                case 0:
+                case 0:                //Employee is abscent so dayhour=0
                     dayHour = 0;
                     break;
-                case 1:
-                    dayHour = 8;
+                case 1:                //Employee is present for Full Time so working hour is 8
+                    dayHour = 8;       
                     break;
-                case 2:
+                case 2:                //Employee is working as Part Time so working hour is 4
                     dayHour = 4;
                     break;
 
             }
-            //if (empCheck == IS_FULL//_TIME)
-            //{
-            //    dayHour = 8;
-            //}
-            //else if(empCheck == IS_PART_TIME)
-            //{
-            //    dayHour = 4;
-            //}
-            //else
-            //{
-            //    dayHour = 0;
-            //}
-            dailyEmpWage = dayHour * WAGE_PER_HOUR;
-            Console .WriteLine("Daily Employee wage = "+dailyEmpWage);
+            monthEmpWage = dayHour * WAGE_PER_HOUR * WORKING_DAYS;
+            Console .WriteLine("Monthly Employee wage = "+monthEmpWage);
         }
     }
 }

@@ -8,17 +8,22 @@ namespace EmployeeWageComputation
 {
     public class EmployeeCheck
     {
-        public static void DailyEmpWage() 
+        public static void PartFullEmpWage() 
         {
             int IS_FULL_TIME = 1;
+            int IS_PART_TIME = 2;
             int dayHour = 0;
             int dailyEmpWage = 0;
             int WAGE_PER_HOUR = 20;
             Random random = new Random();
-            int empCheck=random.Next(2);
+            int empCheck=random.Next(3);
             if (empCheck == IS_FULL_TIME)
             {
                 dayHour = 8;
+            }
+            else if(empCheck == IS_PART_TIME)
+            {
+                dayHour = 4;
             }
             else
             {

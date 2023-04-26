@@ -1,0 +1,8 @@
+H:\C# Project\EmployeeWageComputation\EmployeeWageComputation\bin\Debug\EmployeeWageComputation.exe.config
+H:\C# Project\EmployeeWageComputation\EmployeeWageComputation\bin\Debug\EmployeeWageComputation.exe
+H:\C# Project\EmployeeWageComputation\EmployeeWageComputation\bin\Debug\EmployeeWageComputation.pdb
+H:\C# Project\EmployeeWageComputation\EmployeeWageComputation\obj\Debug\EmployeeWageComputation.csproj.AssemblyReference.cache
+H:\C# Project\EmployeeWageComputation\EmployeeWageComputation\obj\Debug\EmployeeWageComputation.csproj.SuggestedBindingRedirects.cache
+H:\C# Project\EmployeeWageComputation\EmployeeWageComputation\obj\Debug\EmployeeWageComputation.csproj.CoreCompileInputs.cache
+H:\C# Project\EmployeeWageComputation\EmployeeWageComputation\obj\Debug\EmployeeWageComputation.exe
+H:\C# Project\EmployeeWageComputation\EmployeeWageComputation\obj\Debug\EmployeeWageComputation.pdb

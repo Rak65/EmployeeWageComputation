@@ -10,7 +10,7 @@ namespace EmployeeWageComputation
     {
         static void Main(string[] args)
         {
-            EmployeeCheck.EmployeeAttendance();
+            EmployeeCheck.DailyEmpWage();
             Console.ReadKey();
         }
     }
